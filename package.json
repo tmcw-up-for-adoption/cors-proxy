@@ -1,0 +1,20 @@
+{
+  "name": "cors-proxy",
+  "version": "0.0.0",
+  "description": "a proxy that does cors",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+      "cors-proxy": "cors-proxy.js"
+  },
+  "repository": "https://github.com/tmcw/cors-proxy.git",
+  "author": "Tom MacWright <tom@macwright.org>",
+  "license": "BSD",
+  "dependencies": {
+    "express": "~3.2.6",
+    "request": "~2.21.0",
+    "cors": "~1.0.1"
+  }
+}
