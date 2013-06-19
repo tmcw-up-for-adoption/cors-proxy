@@ -1,6 +1,6 @@
 {
   "name": "cors-proxy",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "a proxy that does cors",
   "main": "server.js",
   "scripts": {
