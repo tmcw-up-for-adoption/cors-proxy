@@ -8,8 +8,11 @@ A proxy that does CORS
 Use it with a function like
 
 ```js
-function proxy(url) {
-    return 'http://localhost:3001/?url=' + encodeURIComponent(url);
+function proxy(url, headers, auth) {
+    return 'http://localhost:3001/' +
+        '?url=' + encodeURIComponent(url) +
+        (headers ? ('&headers=' + encodeURIComponent(JSON.stringify(headers))) : '') +
+        (auth ? ('&auth=' + encodeURIComponent(JSON.stringify(auth))) : '');
 }
 ```
 
