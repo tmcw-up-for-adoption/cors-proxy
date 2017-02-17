@@ -1,3 +1,5 @@
+**Replaced by [gkucmierz/cors-proxy](https://github.com/gkucmierz/cors-proxy) in new versions: this npm package is now maintained by gkucmierz and has a different interface in new versions.**
+
 ## cors-proxy
 
 A proxy that does CORS
